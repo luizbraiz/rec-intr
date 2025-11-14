@@ -1,0 +1,5 @@
+sku = "PRD-004-A-v2"
+
+sku_formato = sku.replace( "-", "" ).upper()
+
+print(sku_formato)
